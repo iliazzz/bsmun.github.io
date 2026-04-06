@@ -1,0 +1,72 @@
+#content {
+	display: grid;
+	grid-template-areas:
+	'title1'
+	'committees';
+}
+
+#committees {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	align-content: center;
+	justify-content: center;
+	grid-area: committees;
+}
+
+.comBox {
+	background-color: var(--light-bg-color);
+	border: 0.3vw solid var(--blue-border-color);
+	border-radius: 2vw;
+	padding: 1.5vw;
+	font-size: 1.5vw;
+	margin: 1vw;
+}
+
+.comButtons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.comButtons a {
+	background-color: var(--grey-bg-color);
+	color: var(--link-color);
+	padding: 1vw 2vw 1vw 2vw;
+	border-radius: 3vw;
+	border: 0.1vw solid var(--light-bg-color);
+	cursor: pointer;
+	transition: all .15s ease-in;
+	margin: 1vw;
+	width: 75%;
+	font-size: 1.5vw;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+.comButtons a:hover {
+	color: var(--link-color-active);
+	border: 0.1vw solid var(--link-color-active);
+}
+
+@media only screen and (max-width: 768px) {
+	.comBox {
+		border-radius: 4vw;
+		padding: 3vw;
+		font-size: 4vw;
+		margin: 2vw;
+	}
+
+	#committees {
+		grid-template-columns: auto;
+	}
+
+	.comButtons a {
+	padding: 4vw 2vw 4vw 2vw;
+	border-radius: 7vw;
+	margin: 0vw auto 4vw auto;
+	width:50vw;
+	font-size: 4vw;
+	}
+
+}

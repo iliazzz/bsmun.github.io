@@ -1,0 +1,38 @@
+#content {
+	display: grid;
+	grid-template-areas:
+	'title1'
+	'topics'
+	'chairs';
+}
+
+#topics { grid-area: topics; }
+#chairs { grid-area: chairs; }
+
+#topics .sectionContent {
+	margin-bottom: 2vw;
+}
+
+#chairs .sectionContent {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.chairBio img {
+	width: 10vw;
+}
+
+@media only screen and (max-width: 768px) {
+	#topics .sectionContent {
+	margin-bottom: 6vw;
+	}
+
+
+	#chairs .sectionContent {
+	grid-template-columns: auto;
+	}
+
+	.chairBio img {
+		width: 20vw;
+	}
+}

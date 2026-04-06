@@ -1,0 +1,406 @@
+:root {
+	--light-bg-color: #f2f2f2;
+	--grey-bg-color:  #d9d9d9;
+	--blue-bg-color:  #365a7a;
+	--dark-tx-color:  #0d0d0d;
+	--light-tx-color: #f2f2f2;
+	--link-color: #2f4e6a;
+	--link-color-active: #3e6a8e;
+	--blue-border-color: #2f4d6a;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: EB Garamond;
+	font-weight: 600;
+	margin: 0px;
+	background-color: var(--blue-bg-color);
+	color: var(--light-tx-color);
+}
+
+#text {
+	display: none;
+}
+
+header {
+	display: flex;
+	background-color: var(--light-bg-color);
+	height: 5vw;
+	border-radius: 3vw;
+	margin: 1vw;
+	color: var(--dark-tx-color);
+	justify-content: center;
+}
+
+header #phonenav {
+	display: none;
+}
+
+header td {
+	width: 15vw;
+	margin: auto;
+	text-align: center;
+}
+
+#navtable {
+	width: 75%;
+	align-self: center;
+	align-content: center;
+}
+
+.nav_logo {
+	text-align: center;
+}
+
+.nav_logo img{
+	width: 4vw;
+	vertical-align: middle;
+}
+
+.navtext {
+	font-size: 0.9vw;
+	text-align: center;
+	color: var(--link-color);
+	align-items: center;
+}
+
+.dropdown {
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+
+.navbutton {
+	background-color: var(--light-bg-color);
+	border: none;
+	cursor: pointer;
+	margin: 0vw;
+	padding: 1vw;
+}
+
+.dropcontent {
+	text-align: center;
+	font-size: 1vw;
+	padding: 1vw;
+	display: none;
+	position: absolute;
+	right: 0%;
+	background-color: var(--grey-bg-color);
+	z-index: 1;
+	transition: opacity .15s ease-in;
+	transition-delay: .15s;
+	border-radius: 1vw;
+	opacity: 0;
+	margin: auto;
+	width: 15vw;
+	flex-flow: column;
+}
+
+.dropcontent a {
+	margin: 0.3vw;
+}
+
+.dropdown:hover {
+	color: var(--link-color-active);
+}
+
+.dropdown:hover .dropcontent {
+	display: flex;
+	opacity: 1;
+	justify-content: center;
+	left: -1.5vw;
+}
+
+a {
+	text-decoration: none;
+	color: var(--link-color);
+	transition: all .15s ease-in;
+}
+
+a:hover {
+	color: var(--link-color-active);
+}
+
+#content {
+	display: grid;
+	grid-template-areas: 'Replace Me!';
+	justify-items: center;
+	text-align: center;
+	position: static;
+}
+
+#title1 {
+	grid-area: title1;
+}
+
+.title h1 {
+	font-size: 5vw;
+	margin-bottom: 0vw;
+}
+
+.title h2 {
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+#ctdn {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	width: 50vw;
+	margin: auto;
+}
+
+.section {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	color: var(--dark-tx-color);
+	width: 100%;
+}
+
+.section h1 {
+	color: var(--link-color);
+	background-color: var(--light-bg-color);
+	width: 25vw;
+	border-radius: 2vw;
+	border: 0.3vw solid var(--blue-border-color);
+	margin: 2vw auto -2.5vw auto;
+	z-index: 50;
+	font-size: 3.5vw;
+}
+
+.sectionContent {
+	background-color: var(--light-bg-color);
+	width: 100%;
+	border: 0.3vw solid var(--blue-border-color);
+	border-left: none;
+	border-right: none;
+	padding: 3vw 1.5vw 1.5vw 1.5vw;
+	font-size: 1.5vw;
+}
+
+.sectionContent p {
+	padding: 0vw 1vw 0vw 1vw;
+}
+
+footer {
+	background-color: var(--light-bg-color);
+	position: static;
+	display: inline-block;
+	margin-top: 5vw;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: var(--dark-tx-color);
+}
+
+footer td {
+	width: 33%;
+}
+
+footer #ftable {
+	width: inherit;
+	height: 9vw;
+	padding: 0vw 1vw 0vw 1vw;
+}
+
+
+#ftable h1{
+	font-size: 1.5vw;
+}
+
+#ftable h2{
+	font-size: 1.25vw;
+}
+
+#ftable h3{
+	font-size: 1.05vw;
+}
+
+#fleft img {
+	margin-top: 0.5vw;
+	width: 4vw;
+}
+
+#fcentre {
+	text-align: center;
+}
+
+#fright {
+	text-align: right;
+}
+
+#fleft {
+	text-align: left;
+}
+
+#fphone {
+	display: none;
+}
+
+#roadworks {
+	display: block;
+	justify-content: center;
+	text-align: center;
+}
+
+.fa-solid fa-caret-down {
+	color: var(--blue-bg-color);
+}
+
+@media only screen and (max-width: 768px) {
+	#fwide {
+		display: none;
+	}
+
+	#fphone {
+		display: inline-block;
+		position: static;
+		text-align: center;
+	}
+
+	#fphone footer #ftable {
+	width: inherit;
+	height: 9vw;
+	padding: 0vw 1vw 0vw 1vw;
+	}
+
+
+	#fphone #ftable h1{
+	font-size: 4vw;
+	}
+
+	#fphone #ftable h2{
+	font-size: 3.4vw;
+	}
+
+	#fphone #ftable h3{
+	font-size: 2.8vw;
+	}
+
+	#fphone #fleft img {
+	width: 12vw;
+	margin-top: 3vw;
+	}
+
+	#fphone #fcentre {
+	text-align: center;
+	}
+
+	#fphone #fright {
+	text-align: center;
+	}
+
+	#fphone #fleft {
+		text-align: center;
+	}
+
+	#roadworks h1 {
+	font-size: 15vw;
+	}
+
+	#roadworks h2 {
+	font-size: 6vw;
+	}
+
+	header {
+		height: 10vw;
+		border-radius: 6vw;
+	}
+
+	header #navtable {
+		display: none;
+	}
+
+	header #phonenav {
+		display: flex;
+		justify-content: space-between;	
+		text-align: center;
+		line-height: 10vw;
+		width: 95%;
+		flex-wrap: wrap;
+	}
+
+	#phonenav .nav_logo img {
+		width: 9vw;
+		vertical-align: middle;
+		z-index: 2;
+	}
+
+	#phonenav h2 {
+		margin: 0px;
+		color: var(--dark-tx-color);
+		display: block;
+	}
+
+	#menulinks {
+		display: none;
+		position: relative;
+		opacity: 0;
+		transition: opacity 0.3s ease-in;
+		background-color: var(--light-bg-color);
+		margin: 1vw;
+		right: 2vw;
+		border: 0.7vw solid var(--grey-bg-color);
+		border-radius: 3vw;
+		width: 95vw;
+		flex-flow: column wrap;
+		z-index: 100;
+		align-content: center;
+		justify-content: center;
+	}
+
+	#menulinks .navtext {
+		display: flex;
+		width: 95vw;
+		text-align: center;
+		font-size: 4.5vw;
+		font-weight: bold;
+		justify-content: center;
+		align-content: center;
+	}
+
+	#menulinks .navtext h2 {
+		text-align: center;
+		font-size: 4.5vw;
+		color: var(--link-color);
+	}
+
+	.menu_a {
+		display: block;
+		font-size: 3vw;
+	}
+
+	#confdrop, #joindrop, #regdrop {
+		display: none;
+		flex-flow: column wrap;
+	}
+
+	.title h1 {
+		font-size: 8vw;
+	}
+
+	.title h2 {
+		font-size: 3vw;
+	}
+
+	.section h1 {
+		font-size: 5.5vw;
+		width: 40vw;
+		border-radius: 3vw;
+	}
+
+	.sectionContent {
+		font-size: 4vw;
+		padding: 3vw 2.5vw 2.5vw 2.5vw;
+	}
+
+	.sectionContent p {
+	padding: 0vw 3vw 0vw 3vw;
+}
+}

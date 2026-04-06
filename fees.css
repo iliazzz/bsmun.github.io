@@ -1,0 +1,19 @@
+#content {
+	display: grid;
+	grid-template-areas: 
+	'title1'
+	'fees'; 
+}
+
+#title1 {grid-area: title1}
+#fees {grid-area: fees}
+
+.fat {
+	width: 50vw !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.fat {
+		width: 65vw !important;
+	}
+}

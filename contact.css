@@ -1,0 +1,219 @@
+* {
+	box-sizing: border-box;
+}
+
+#content {
+	display: grid;
+	grid-template-areas: 
+	'title2'
+	'title1'
+	'contactform'; 
+}
+
+#title1 {
+	grid-area: title1;
+}
+
+#title2 {
+	grid-area: title2;
+}
+
+#reg {
+	grid-area: reg;
+}
+
+#regLinks {
+	margin-top: 3vw;
+	display: grid;
+	grid-template-areas: 
+	'rbDelegate rbDelegate'
+	'rbChair rbVolunteer';
+}
+
+.regButton {
+	background-color: var(--grey-bg-color);
+	color: var(--link-color);
+	padding: 1.5vw 1vw 1.5vw 1vw;
+	border-radius: 3vw;
+	border: 0.1vw solid var(--light-bg-color);
+	cursor: pointer;
+	transition: all .15s ease-in;
+	margin: 0vw auto 2vw auto;
+	width: 100%;
+	font-size: 1.5vw;
+}
+
+.regButton:hover {
+	color: var(--link-color-active);
+	border: 0.1vw solid var(--link-color-active);
+}
+
+#rbDelegate {
+	grid-area: rbDelegate;
+}
+
+#rbChair {
+	grid-area: rbChair;
+}
+
+#rbVolunteer {
+	grid-area: rbVolunteer;
+}
+
+.sectionContent {
+	padding: 1vw 1.5vw 1vw 1.5vw;
+}
+
+#contactF {
+	width: 80vw;
+	background-color: var(--light-bg-color);
+	border-radius: 3vw;
+	margin-top: 3vw;
+	grid-area: contactform;
+	border: 0.3vw solid var(--blue-border-color);
+}
+
+#cForm {
+	display: grid;
+	grid-template-areas: 
+	'FName LName'
+	'email email'
+	'subject subject'
+	'message message'
+	'submit submit';
+}
+
+.textInput {
+	color: var(--dark-tx-color);
+	display: flex;
+	flex-flow: column;
+	margin: 1vw 1vw 1vw 1vw;
+}
+
+input[type=text], select, textarea {
+	background-color: var(--grey-bg-color);
+	border: none;
+	border-radius: 2vw;
+	padding: 1.5vw 1vw 1.5vw 1vw;
+	margin: 1.5vw 1vw 1.5vw 1vw;
+}
+
+input[type=submit] {
+	background-color: var(--grey-bg-color);
+	color: var(--link-color);
+	padding: 1.5vw 1vw 1.5vw 1vw;
+	border-radius: 3vw;
+	border: 0.1vw solid var(--light-bg-color);
+	cursor: pointer;
+	transition: all .15s ease-in;
+	margin: 0vw auto 2vw auto;
+	width: 25vw;
+	font-size: 1.5vw;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+input[type=submit]:hover {
+	color: var(--link-color-active);
+	border: 0.1vw solid var(--link-color-active);
+}
+
+#cfFName {
+	grid-area: FName;
+}
+
+#cfLName {
+	grid-area: LName;
+}
+
+#cfEmail {
+	grid-area: email;
+}
+
+#cfMessage {
+	grid-area: message;
+}
+
+#cfSubmit {
+	grid-area: submit;
+}
+
+#cfSubject {
+	grid-area: subject;
+}
+
+#message {
+	height: 10vw;
+}
+
+#asterisk {
+	color: #b3b3b3;
+}
+
+.user-cannot-see {
+    display:none
+}
+
+@media only screen and (max-width: 768px) {
+	#cForm {
+	display: grid;
+	grid-template-areas: 
+	'FName'
+	'LName'
+	'email'
+	'subject'
+	'message'
+	'submit';
+	}
+
+	#regLinks {
+	margin-top: 3vw;
+	display: grid;
+	grid-template-areas: 
+	'rbDelegate'
+	'rbChair'
+	'rbVolunteer';
+	}
+
+	#contactF {
+	border-radius: 5vw;
+	margin-top: 8vw;
+	}
+
+	.textInput {
+	margin: 5vw 2vw 5vw 2vw;
+	}
+
+	input[type=text], select, textarea {
+	border-radius: 7vw;
+	padding: 5vw 3vw 5vw 3vw;
+	margin: 3vw 2vw 3vw 2vw;
+	}
+
+	#message {
+		height: 50vw;
+	}
+
+	input[type=submit] {
+	padding: 4vw 2vw 4vw 2vw;
+	border-radius: 7vw;
+	margin: 0vw auto 4vw auto;
+	width:50vw;
+	font-size: 4vw;
+	}
+
+	.regButton {
+	padding: 4vw 2vw 4vw 2vw;
+	border-radius: 7vw;
+	margin: 0vw auto 4vw auto;
+	font-size: 4vw;
+	}
+
+	#contactF p {
+		margin: 2vw;
+	}
+
+	.sectionContent {
+	padding: 2.5vw;
+}
+}

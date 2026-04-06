@@ -1,0 +1,75 @@
+#content {
+	display: grid;
+	grid-template-areas: 'title1';
+}
+
+#buttons {
+	width: 85vw;
+	margin-top: 3vw;
+	display: grid;
+	column-gap: 2vw;
+	grid-template-areas: 
+	'rbDelegate rbDelegate'
+	'rbChair rbVolunteer';
+}
+
+.regButton {
+	background-color: var(--grey-bg-color);
+	color: var(--link-color);
+	padding: 2vw 1vw 2vw 1vw;
+	border-radius: 3vw;
+	border: 0.1vw solid var(--blue-bg-color);
+	cursor: pointer;
+	transition: all .15s ease-in;
+	margin: 0vw auto 2vw auto;
+	width: 100%;
+	font-size: 2vw;
+}
+
+.regButton:hover {
+	color: var(--link-color-active);
+	border: 0.1vw solid var(--light-bg-color);
+}
+
+#rbDelegate {
+	grid-area: rbDelegate;
+}
+
+#rbChair {
+	grid-area: rbChair;
+}
+
+#rbVolunteer {
+	grid-area: rbVolunteer;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+	.regButton {
+	padding: 5vw 2vw 5vw 2vw;
+	border-radius: 7vw;
+	margin: 0vw auto 4vw auto;
+	font-size: 5vw;
+	}
+
+	#buttons {
+	margin-top: 3vw;
+	display: grid;
+	grid-template-areas: 
+	'rbDelegate'
+	'rbChair'
+	'rbVolunteer';
+	}
+
+	.title h1 {
+	font-size: 7vw;
+	}
+
+	footer {
+		position: static;
+	}
+}

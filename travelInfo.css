@@ -1,0 +1,8 @@
+#content {
+	display: grid;
+	grid-template-areas: 'title1';
+}
+
+.fat {
+	width: 50vw !important;
+}

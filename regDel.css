@@ -1,0 +1,141 @@
+#content {
+	display: grid;
+	grid-template-areas: 
+	'title1'
+	'timeline'
+	'eligibility';
+}
+
+#timeline {
+	grid-area: timeline;
+}
+
+#tlLego {
+	display: grid;
+	grid-template-areas: 
+	'tl1 tl1-2 tl2 tl2-3 tl3'
+}
+
+#tl1 { grid-area: tl1; }
+#tl1-2 { grid-area: tl1-2; }
+#tl2 { grid-area: tl2; }
+#tl2-3 { grid-area: tl2-3; }
+#tl3 { grid-area: tl3; }
+
+.brick {
+	background-color: var(--light-bg-color);
+	border: 0.3vw solid var(--blue-border-color);
+	border-radius: 2vw;
+	padding: 1.5vw;
+	font-size: 2vw;
+	margin: 1vw;
+}
+
+.mortar {
+	color: var(--light-tx-color);
+	font-size: 7vw !important;
+	margin-top: 2.5vw;
+}
+
+#eligibility {
+	grid-area: eligibility;
+}
+
+.sectionContent {
+	background: none;
+	border: none;
+}
+
+.title p {
+	margin: 1vw 2vw 1vw 2vw;
+}
+
+.section h1 {
+	width: 45vw;
+}
+
+.prereqs {
+	text-align: left;
+	padding: 0px;
+}
+
+.prereqs .ordered {
+	background-color: var(--light-bg-color);
+	border: 0.3vw solid var(--blue-border-color);
+	border-radius: 2vw;
+	padding: 1.5vw;
+	font-size: 3vw;
+	margin: 1vw;
+	list-style-type: none;
+}
+
+.prereqs .par {
+	font-size: 2vw;
+}
+
+.par li {
+	margin-bottom: 2vw;
+}
+
+.prereqs h2 {
+	font-size: 3vw;
+	margin-bottom: 1vw;
+}
+
+.prereqs ul {
+	list-style-type: disc;
+}
+
+.regButton {
+	background-color: var(--grey-bg-color);
+	color: var(--link-color);
+	padding: 2vw 1vw 2vw 1vw;
+	border-radius: 3vw;
+	border: 0.1vw solid var(--blue-bg-color);
+	cursor: pointer;
+	transition: all .15s ease-in;
+	margin: 2vw auto 2vw auto;
+	width: 80%;
+	font-size: 2vw;
+}
+
+.regButton:hover {
+	color: var(--link-color-active);
+	border: 0.1vw solid var(--light-bg-color);
+}
+
+@media only screen and (max-width: 768px) {
+	.prereqs h2 {
+	font-size: 4.5vw;
+	margin-bottom: 1vw;
+	}
+
+	.prereqs .ordered {
+	border-radius: 4vw;
+	padding: 3vw;
+	margin: 2vw;
+	font-size: 4.5vw;
+	}
+
+	.brick {
+	border-radius: 4vw;
+	padding: 3vw;
+	margin: 2vw;
+	font-size: 4vw;
+	}
+
+	.prereqs .par {
+	font-size: 3.9vw;
+	}
+
+	.regButton {
+	padding: 5vw 2vw 5vw 2vw;
+	border-radius: 7vw;
+	margin: 4vw auto 4vw auto;
+	font-size: 5vw;
+	}
+
+	.mortar {
+		margin-top: 10vw;
+	}
+}

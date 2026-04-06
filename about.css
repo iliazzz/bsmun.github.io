@@ -1,0 +1,14 @@
+#content {
+	display: grid;
+	grid-template-areas: 'title1'
+	'mission' 
+	'team';
+}
+
+#mission {
+	grid-area: mission;
+}
+
+#team {
+	grid-area: team;
+}
