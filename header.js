@@ -3,7 +3,7 @@ document.write('\
 	 <table id="navtable">\
 		<tr>\
 			<td class="nav_logo">\
-				<a href="home.html"><img src="logo.png"></a>\
+				<a href="index.html"><img src="logo.png"></a>\
 			</td>\
 			<td id="nav_cotc">\
 				<a href="contact.html" class="navtext">\
@@ -47,7 +47,7 @@ document.write('\
 \
 	 <div id="phonenav">\
 	 	<div class="nav_logo">\
-	 		<a href="home.html"><img src="logo.png"></a>\
+	 		<a href="index.html"><img src="logo.png"></a>\
 	 	</div>	\
 \
 	 	<a href="javascript:void(0);" class="menu_a" onclick="m_menu()">\
@@ -55,7 +55,7 @@ document.write('\
 	 	</a>		\
 \
 	 	<div id="menulinks">\
-	 		<a href="home.html" class="navtext">Home</a>\
+	 		<a href="index.html" class="navtext">Home</a>\
 	 		<a href="contact.html" class="navtext">Contact</a>\
 			<a href="about.html" class="navtext">About</a>\
 			<div>\
