@@ -15,21 +15,21 @@ document.write('\
 					<h2>About</h2>\
 				</a>\
 			</td>\
-			<td id="nav_reg">\
-				<div class="navtext dropdown">\
-					<h2 class="navbutton">Register</h2>\
-					<div class="dropcontent">\
-						<a href="reg.html">Registration</a>\
-						<a href="fees.html">Fees and Scholarships</a>\
-					</div>\
-				</div>\
-			</td>\
 			<td id="nav_conf">\
 				<div class="navtext dropdown">\
 					<h2 class="navbutton">Conference</h2>\
 					<div class="dropcontent">\
 						<a href="committees.html">Committees</a>\
 						<a href="event.html">Social Event</a>\
+					</div>\
+				</div>\
+			</td>\
+			<td id="nav_reg">\
+				<div class="navtext dropdown">\
+					<h2 class="navbutton">Registration</h2>\
+					<div class="dropcontent">\
+						<a href="reg.html">Register</a>\
+						<a href="fees.html">Fees and Scholarships</a>\
 					</div>\
 				</div>\
 			</td>\
@@ -59,23 +59,23 @@ document.write('\
 	 		<a href="contact.html" class="navtext">Contact</a>\
 			<a href="about.html" class="navtext">About</a>\
 			<div>\
-				<a href="javascript:void(0);" onclick="reg_menu()" class="navtext">\
-					<h2>Register <i class="fa-solid fa-caret-left" id="carreg" style="color: #365a7a;"></i></h2>\
-				</a>\
-\
-				<div id="regdrop">\
-					<a href="reg.html" class="navtext">Registration</a>\
-					<a href="fees.html" class="navtext">Fees and Scholarships</a>\
-				</div>\
-			</div>\
 			<div>\
 				<a href="javascript:void(0);" onclick="conf_menu()" class="navtext">\
 					<h2>Conference <i class="fa-solid fa-caret-left" id="carcon" style="color: #365a7a;"></i></h2>\
 				</a>\
 \
 				<div id="confdrop">\
-					<a href="jDiv.html" class="navtext">Junior Division</a>\
-					<a href="sDiv.html" class="navtext">Senior Division</a>\
+					<a href="committees.html" class="navtext">Committees</a>\
+					<a href="event.html" class="navtext">Social Event</a>\
+				</div>\
+			</div>\
+				<a href="javascript:void(0);" onclick="reg_menu()" class="navtext">\
+					<h2>Registration <i class="fa-solid fa-caret-left" id="carreg" style="color: #365a7a;"></i></h2>\
+				</a>\
+\
+				<div id="regdrop">\
+					<a href="reg.html" class="navtext">Register</a>\
+					<a href="fees.html" class="navtext">Fees and Scholarships</a>\
 				</div>\
 			</div>\
 			<div>\
