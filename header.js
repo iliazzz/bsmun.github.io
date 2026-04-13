@@ -19,7 +19,8 @@ document.write('\
 				<div class="navtext dropdown">\
 					<h2 class="navbutton">Conference</h2>\
 					<div class="dropcontent">\
-						<a href="committees.html">Committees</a>\
+						<a href="commS.html">Senior Committees</a>\
+						<a href="commJ.html">Junior Committees</a>\
 						<a href="event.html">Social Event</a>\
 					</div>\
 				</div>\
@@ -35,7 +36,7 @@ document.write('\
 			</td>\
 			<td id="nav_part">\
 				<div class="navtext dropdown">\
-					<h2 class="navbutton">Participate</h2>\
+					<h2 class="navbutton">Participation</h2>\
 					<div class="dropcontent">\
 						<a href="prepCent.html">Preparation Centre</a>\
 						<a href="travelInfo.html">Travel Information</a>\
@@ -65,7 +66,8 @@ document.write('\
 				</a>\
 \
 				<div id="confdrop">\
-					<a href="committees.html" class="navtext">Committees</a>\
+					<a href="commS.html">Senior Committees</a>\
+					<a href="commJ.html">Junior Committees</a>\
 					<a href="event.html" class="navtext">Social Event</a>\
 				</div>\
 			</div>\

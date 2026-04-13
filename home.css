@@ -7,6 +7,7 @@
 	display: grid;
 	grid-template-areas: 
 	'title1'
+	'titleimg'
 	'committees'
 	'mission'
 	'team';
@@ -15,8 +16,24 @@
 	position: static;
 }
 
+.titleimg { 
+	grid-area: titleimg; 
+	width: 97vw;
+	border-radius: 2vw;
+	margin: 2vw auto 2vw auto;
+}
+
+#ttimg_p {
+	display: none;
+}
+
 #title1 {
 	grid-area: title1;
+}
+
+.title h2 {
+	font-size: 2.3vw;
+	text-align: center;
 }
 
 #ctdn {
@@ -29,6 +46,7 @@
 
 #ctdn h1 {
 	margin: 0.5vw;
+	font-size: 6.5vw;
 }
 
 #ctdn h2 {
@@ -109,8 +127,27 @@ ul {
 
 @media only screen and (max-width: 768px) {
 
+	.title h2 {
+	font-size: 4vw;
+	text-align: center;
+	}
+
+	#ttimg_d {
+	display: none;
+	}
+
+	#ttimg_p {
+	display: inherit;
+	width: 95vw;
+	border-radius: 5vw;
+	}
+
+	#ctdn {
+		width: 85vw;
+	}
+
 	#ctdn h1 {
-		font-size: 5vw;
+		font-size: 10vw;
 	}
 
 	#ctdn h2 {
