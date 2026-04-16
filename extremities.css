@@ -231,6 +231,10 @@ footer #ftable {
 	text-align: center;
 }
 
+.mmlogo {
+	width: 1.3vw;
+}
+
 #fright {
 	text-align: right;
 }
@@ -294,6 +298,10 @@ footer #ftable {
 
 	#fphone #fright {
 	text-align: center;
+	}
+
+	.mmlogo {
+		width: 5vw;
 	}
 
 	#fphone #fleft {
