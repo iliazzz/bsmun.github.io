@@ -11,7 +11,7 @@ document.write('\
                 <h1>In cooperation with JEF Moldova</h1>\
             </td>\
             <td id="fright">\
-                <h2>Contact us:<br> For general questions: <br> <a href="mailto:secretariat@blackseamodelun.org">secretariat@blackseamodelun.org</a> <br><br><a href="https://www.instagram.com/blacksea.mun/" style="font-size: 1.5vw;"><i class="fa-brands fa-instagram" style="color: #0d0d0d;"></i></a> <a href="https://mymun.com/conferences/blackseamun-2026"><img src="mymun_128.png" class="mmlogo"></a> </h2>\
+                <h2>Contact us: <br> <a href="mailto:secretariat@blackseamodelun.org">secretariat@blackseamodelun.org</a> <br><br><a href="https://www.instagram.com/blacksea.mun/" style="font-size: 1.5vw;"><i class="fa-brands fa-instagram" style="color: #0d0d0d;"></i></a> <a href="https://mymun.com/conferences/blackseamun-2026"><img src="mymun_128.png" class="mmlogo"></a> </h2>\
                 <h3>&copy; 2026 Black Sea MUN Head of Technology</h3>\
             </td>\
         </tr>\
@@ -34,7 +34,7 @@ document.write('\
         </tr>\
         <tr>    \
             <td id="fright">\
-                <h2>Contact us:<br> For general questions: <br> <a href="mailto:secretariat@blackseamodelun.org">secretariat@blackseamodelun.org</a> <br><br><a href="https://www.instagram.com/blacksea.mun/" style="font-size: 6vw;"><i class="fa-brands fa-instagram" style="color: #0d0d0d;"></i></a> <a href=""><img src="mymun_128.png" class="mmlogo"></a></h2>\
+                <h2>Contact us: <br> <a href="mailto:secretariat@blackseamodelun.org">secretariat@blackseamodelun.org</a> <br><br><a href="https://www.instagram.com/blacksea.mun/" style="font-size: 6vw;"><i class="fa-brands fa-instagram" style="color: #0d0d0d;"></i></a> <a href=""><img src="mymun_128.png" class="mmlogo"></a></h2>\
                 <h3>&copy; 2026 Black Sea MUN Head of Technology</h3>\
             </td>\
         </tr>\
