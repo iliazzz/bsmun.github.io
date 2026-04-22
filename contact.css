@@ -5,7 +5,6 @@
 #content {
 	display: grid;
 	grid-template-areas: 
-	'title2'
 	'title1'
 	'contactform'; 
 }
@@ -21,6 +20,8 @@
 #reg {
 	grid-area: reg;
 }
+
+
 
 #regLinks {
 	margin-top: 3vw;
@@ -71,6 +72,20 @@
 	margin-top: 3vw;
 	grid-area: contactform;
 	border: 0.3vw solid var(--blue-border-color);
+}
+
+#interestF {
+	width: 80vw;
+	background-color: var(--light-bg-color);
+	border-radius: 3vw;
+	margin-top: 3vw;
+	grid-area: interestform;
+	border: 0.3vw solid var(--blue-border-color);
+}
+
+#iForm {
+	display: flex;
+	flex-direction: column;
 }
 
 #cForm {

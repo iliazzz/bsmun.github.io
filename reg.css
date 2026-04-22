@@ -1,9 +1,13 @@
 #content {
 	display: grid;
-	grid-template-areas: 'title1';
+	grid-template-areas: 
+	'title1'
+	'interest'
+	'buttons';
 }
 
 #buttons {
+	grid-area: buttons;
 	width: 85vw;
 	margin-top: 3vw;
 	display: grid;
@@ -41,11 +45,6 @@
 
 #rbVolunteer {
 	grid-area: rbVolunteer;
-}
-
-footer {
-	position: fixed;
-	bottom: 0px;
 }
 
 @media only screen and (max-width: 768px) {

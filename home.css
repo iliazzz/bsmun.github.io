@@ -8,12 +8,25 @@
 	grid-template-areas: 
 	'title1'
 	'titleimg'
+	'interest'
 	'committees'
 	'mission'
 	'team';
 	justify-items: center;
 	text-align: center;
 	position: static;
+}
+
+#interest { grid-area: interest; }
+
+#interest .sectionContent {
+	display: flex;
+	flex-direction: column;
+	border: 0.3vw solid var(--blue-border-color);
+	border-radius: 2vw;
+	padding: 1.5vw;
+	margin: 1vw;
+	width: auto;
 }
 
 .titleimg { 

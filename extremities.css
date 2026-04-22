@@ -1,3 +1,4 @@
+
 :root {
 	--light-bg-color: #f2f2f2;
 	--grey-bg-color:  #d9d9d9;
@@ -251,6 +252,80 @@ footer #ftable {
 	display: block;
 	justify-content: center;
 	text-align: center;
+}
+
+#interest { grid-area: interest; }
+
+#interest .sectionContent {
+	display: flex;
+	flex-direction: column;
+	border: 0.3vw solid var(--blue-border-color);
+	border-radius: 2vw;
+	padding: 1.5vw;
+	margin: 1vw;
+	width: auto;
+}
+
+#interest h1 {
+	width: 65vw;
+}
+
+#interestF {
+	width: 80vw;
+	background-color: var(--light-bg-color);
+	border-radius: 3vw;
+	margin-top: 3vw;
+	grid-area: interestform;
+	border: 0.3vw solid var(--blue-border-color);
+}
+
+#iForm {
+	display: flex;
+	flex-direction: column;
+}
+
+input[type=text], select, textarea {
+	background-color: var(--grey-bg-color);
+	border: none;
+	border-radius: 2vw;
+	padding: 1.5vw 1vw 1.5vw 1vw;
+	margin: 1.5vw 1vw 1.5vw 1vw;
+}
+
+input[type=submit] {
+	background-color: var(--grey-bg-color);
+	color: var(--link-color);
+	padding: 1.5vw 1vw 1.5vw 1vw;
+	border-radius: 3vw;
+	border: 0.1vw solid var(--light-bg-color);
+	cursor: pointer;
+	transition: all .15s ease-in;
+	margin: 0vw auto 2vw auto;
+	width: 25vw;
+	font-size: 1.5vw;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+input[type=submit]:hover {
+	color: var(--link-color-active);
+	border: 0.1vw solid var(--link-color-active);
+}
+
+#asterisk {
+	color: #b3b3b3;
+	font-size: 1vw;
+}
+
+.textInput {
+	color: var(--dark-tx-color);
+	display: flex;
+	flex-flow: column;
+	margin: 1vw 1vw 1vw 1vw;
+}
+
+.user-cannot-see {
+    display:none
 }
 
 .fa-solid fa-caret-down {
