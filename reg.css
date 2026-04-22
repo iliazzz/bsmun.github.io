@@ -10,7 +10,7 @@
 	grid-area: buttons;
 	width: 85vw;
 	margin-top: 3vw;
-	display: grid;
+	display: none;
 	column-gap: 2vw;
 	grid-template-areas: 
 	'rbDelegate rbDelegate'
@@ -57,7 +57,7 @@
 
 	#buttons {
 	margin-top: 3vw;
-	display: grid;
+	display: none;
 	grid-template-areas: 
 	'rbDelegate'
 	'rbChair'

@@ -17,18 +17,6 @@
 	position: static;
 }
 
-#interest { grid-area: interest; }
-
-#interest .sectionContent {
-	display: flex;
-	flex-direction: column;
-	border: 0.3vw solid var(--blue-border-color);
-	border-radius: 2vw;
-	padding: 1.5vw;
-	margin: 1vw;
-	width: auto;
-}
-
 .titleimg { 
 	grid-area: titleimg; 
 	width: 97vw;

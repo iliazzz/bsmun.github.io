@@ -483,6 +483,37 @@ input[type=submit]:hover {
 		padding: 3vw 2.5vw 2.5vw 2.5vw;
 	}
 
+	.textInput {
+	margin: 5vw 2vw 5vw 2vw;
+	}
+
+	input[type=text], select, textarea {
+	border-radius: 7vw;
+	padding: 5vw 3vw 5vw 3vw;
+	margin: 3vw 2vw 3vw 2vw;
+	}
+
+	input[type=submit] {
+	padding: 4vw 2vw 4vw 2vw;
+	border-radius: 7vw;
+	margin: 0vw auto 4vw auto;
+	width:50vw;
+	font-size: 4vw;
+	}
+
+	#asterisk {
+	color: #b3b3b3;
+	font-size: 3vw;
+}
+
+	#interest .sectionContent {
+	border: 0.3vw solid var(--blue-border-color);
+	border-radius: 6vw;
+	padding: 1.5vw;
+	margin: 4vw;
+	width: auto;
+}
+
 	.sectionContent p {
 	padding: 0vw 3vw 0vw 3vw;
 }
