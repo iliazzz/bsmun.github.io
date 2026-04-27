@@ -324,6 +324,15 @@ input[type=submit]:hover {
 	margin: 1vw 1vw 1vw 1vw;
 }
 
+.radioInput {
+	padding: 1vw;
+	margin: 1vw;
+}
+
+.radioInput label {
+	padding: 1vw;
+}
+
 .user-cannot-see {
     display:none
 }
@@ -486,6 +495,15 @@ input[type=submit]:hover {
 	.textInput {
 	margin: 5vw 2vw 5vw 2vw;
 	}
+
+	.radioInput {
+	padding: 3vw;
+	margin: 5vw 2vw 5vw 2vw;
+}
+
+.radioInput label {
+	padding: 3vw;
+}
 
 	input[type=text], select, textarea {
 	border-radius: 7vw;
