@@ -5,7 +5,7 @@ document.write('\
             <td id="fleft">\
                 <img src="logo.png">\
                 <h1>Black Sea Model United Nations Conference 2026</h1>\
-                <h3>September 17-20 <br> Chisinau, Moldova</h3>\
+                <h3>October 22-25 <br> Chisinau, Moldova</h3>\
             </td>\
             <td id="fcentre">\
                 <h1>In cooperation with JEF Moldova</h1>\
